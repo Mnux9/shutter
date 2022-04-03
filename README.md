@@ -15,10 +15,7 @@ raspi-gpio set [GPIO] dl
 ## Run
 1) ssh into the raspberry pi
 2) create shutter.sh
-3) allow execution of the scrip
-```
-chmod +x script.sh
-```
+3) allow execution of the scrip```chmod +x script.sh```
 ## Wiring
 The wiring is very simple:
 
