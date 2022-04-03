@@ -26,6 +26,6 @@ The wiring is very simple:
 
 ![shutter tap](https://github.com/Mnux9/shutter/blob/main/images/shutter-tap.jpg)
 
-2) Connect the the thing to raspberry pi. Pin 32 and pin 34 as the ground in my case.
+2) Connect the the thing to raspberry pi. Pin 32 and pin 34 as the ground in my case. This can be chanaged [GPIO].
 
 ![connecting to raspberry](https://github.com/Mnux9/shutter/blob/main/images/raspi-connect.jpg)
