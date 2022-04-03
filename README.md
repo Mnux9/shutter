@@ -8,9 +8,8 @@ My old camera doesn't have any intervalometer function so i made this dogy scrip
 ```
 echo "---------AUTO SHUTTER---------"
 echo "PRESS: CTRL + C TO STOP"
-raspi-gpio set 12 dh
-raspi-gpio set 12 dl
-
+raspi-gpio set [GPIO] dh #replace the [GPIO] with the number of your GPIO
+raspi-gpio set [GPIO] dl #replace the [GPIO] with the number of your GPIO
 ```
 
 ## Wiring
