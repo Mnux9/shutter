@@ -8,3 +8,5 @@ My old camera doesn't have any intervalometer function so i made this dogy scrip
 The wiring is very simple:
 
 Just take the camera apart (dont get zaped by the flash capacitor like I did) and tap into shutter button pins.
+
+![alt text](https://github.com/[mnux]/[shutter]/blob/[images]/shutter-tap.jpg?raw=true)
