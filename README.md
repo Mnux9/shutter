@@ -18,6 +18,7 @@ raspi-gpio set [GPIO] dl
 3) allow execution of the scrip ```chmod +x shutter.sh```
 4) test ```./shutter.sh```
 5) run it on repeat (replace [DELAY]...) ```watch -n [DELAY] script.sh```
+6) press ctrl + c to stop it
 
 ## Wiring
 The wiring is very simple:
