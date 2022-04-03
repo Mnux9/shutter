@@ -4,6 +4,15 @@ Camera shutter controlled by raspberry pi.
 ## Description
 My old camera doesn't have any intervalometer function so i made this dogy script to controll the shutter with a raspberry pi's GPIO pins 
 
+## Script
+```
+echo "---------AUTO SHUTTER---------"
+echo "PRESS: CTRL + C TO STOP"
+raspi-gpio set 12 dh
+raspi-gpio set 12 dl
+
+```
+
 ## Wiring
 The wiring is very simple:
 
