@@ -16,9 +16,10 @@ raspi-gpio set [GPIO] dl
 1) ssh into the raspberry pi
 2) create shutter.sh and paste the code into it
 3) allow execution of the scrip ```chmod +x shutter.sh```
-4) test ```./shutter.sh```
-5) run it on repeat (replace [DELAY]...) ```watch -n [DELAY] script.sh```
-6) press ctrl + c to stop it
+4) set your GPIO as output (this needs to be done after every restart) ```raspi-gpio set [GPIO] op```
+5) test ```./shutter.sh```
+6) run it on repeat (replace [DELAY]...) ```watch -n [DELAY] script.sh```
+7) press ctrl + c to stop it
 
 ## Wiring
 The wiring is very simple:
